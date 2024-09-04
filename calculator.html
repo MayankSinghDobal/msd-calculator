@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced Calculator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-100">
+        <div class="calculator card shadow-lg p-4 rounded">
+            <div class="card-body">
+                <input type="text" id="display" class="form-control mb-3 text-right" readonly>
+                <div class="button-grid">
+                    <button class="btn btn-light btn-lg">7</button>
+                    <button class="btn btn-light btn-lg">8</button>
+                    <button class="btn btn-light btn-lg">9</button>
+                    <button class="btn btn-danger btn-lg">C</button>
+                    
+                    <button class="btn btn-light btn-lg">4</button>
+                    <button class="btn btn-light btn-lg">5</button>
+                    <button class="btn btn-light btn-lg">6</button>
+                    <button class="btn btn-primary btn-lg">/</button>
+                    
+                    <button class="btn btn-light btn-lg">1</button>
+                    <button class="btn btn-light btn-lg">2</button>
+                    <button class="btn btn-light btn-lg">3</button>
+                    <button class="btn btn-primary btn-lg">*</button>
+                    
+                    <button class="btn btn-light btn-lg">0</button>
+                    <button class="btn btn-light btn-lg">.</button>
+                    <button class="btn btn-primary btn-lg">=</button>
+                    <button class="btn btn-primary btn-lg">+</button>
+                    
+                    <button class="btn btn-primary btn-lg w-100">-</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
